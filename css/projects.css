@@ -1,0 +1,43 @@
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.col-2 {
+    animation: fade-in 0.5s 1;
+}
+
+.col-10 {
+    animation: fade-in 0.75s 1;
+}
+/* 
+#text1, #text2, #text3, #text4 {
+    font-size: 120%;
+}
+
+#text1, #text1-1, #text2, #text2-1, #text3, #text3-1, #text4-1, #text4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#text2-1 {
+    padding-bottom: 0px;
+}
+

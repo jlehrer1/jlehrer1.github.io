@@ -1,0 +1,36 @@
+h1 {
+    margin: 0px 0px 0px 0px;
+}
+
+[class*="col-"] {
+    padding-left: 3%;
+}
+
+#title {
+    padding-left: 3%;
+    font-family: 'Armata', sans-serif;
+    font-size: 200%;
+}
+
+#navbar {
+    display: inline-block;
+    text-align: center;
+    padding-left: 20%;
+}
+
+.nav-item {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.active-page {
+    background-color: whitesmoke;
+}
+
+nav .navbar-nav li a {
+    color: black;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("/resources/cubes.png");
+}

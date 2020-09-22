@@ -1,3 +1,4 @@
-# My blog
+# Personal Website
+My personal website listing projects etc. Doesn't get updated as much as it should :)
 
-My blog for cooking, baking, and maybe a little programming
+Check it out at [julianlehrer.me](https://julianlehrer.me)
